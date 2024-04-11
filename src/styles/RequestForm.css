@@ -1,0 +1,186 @@
+.reqFormContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 872px;
+    height: 543px;
+    margin: 50px 0 70px 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px #00000033;
+}
+
+.regFormTextContainer {
+    display: block;
+    margin-left: 30px;
+    text-align: left;
+    width: 392px;
+}
+
+.inputFormText, .inputFormTextSelect, .inputFormTextError {
+    width: 227px;
+    height: 41px;
+    border-radius: 5px;
+    opacity: 0,4;
+    border: 1px solid #C7C7C7;
+    box-shadow: 0px 0px 20px 0px #0000000D;
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 16.94px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    padding: 0 0 0 15px;
+    color: black;
+    background-color: white;
+}
+
+.inputFormTextSelect {
+    width: 244px;
+}
+
+.inputFormTextError {
+    border: 1px solid #FF5959;
+    color: #FF5959;
+}
+
+.inputFormText::placeholder {
+    color: 949494;
+}
+
+.inputFormLabel {
+    margin-top: 25px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: black;
+}
+
+.reqErrorMassege {
+    margin-top: 5px;
+
+    padding: 0;
+    text-align: center;
+    width: 244px;
+    height: 17px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #FF5959; 
+}
+
+.datePickerFrame {
+    display: flex;
+    justify-content: space-between;
+}
+
+.react-datepicker-wrapper {
+    width: 176px;
+}
+
+.react-datepickerInput-container, .react-datepickerErrors {
+    width: 159px;
+    height: 43px;
+    border: 1px solid #C7C7C7;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 0px #0000000D;
+    text-align: left;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.react-datepickerErrors {
+    border: 1px solid #FF5959;
+    color: #FF5959;
+}
+
+.react-datepicker__input-container input::placeholder {
+    text-align: center;
+}
+
+.inputFormCheck {
+    display: block;
+    width: 406px;
+    height: 244px;
+    margin: 30px 0 0 0px;
+}
+
+.inputFormCheckLine {
+    display: flex;  
+    align-items: center;
+    font-size: 18px;
+    line-height: 21.78px;
+    letter-spacing: 0.03em;
+}
+
+.inputFormCheckLine label {
+    display: flex;
+    cursor: pointer;
+    &:hover{
+        &::before{
+            border: 1px solid #000;
+            background-color: #949494;
+        }
+    }
+}
+
+.inputFormCheckLine label::before {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    content: '';
+    border: 1px solid black;
+    opacity: 33%;
+}
+
+.inputFormCheckLine input {
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+}
+
+.inputFormCheckLine input:checked{
+    &+label::before{
+        opacity: 1;
+        content: url('../img/icon_galka.svg');
+    };
+    &+label{
+        color: #000;
+    }
+}
+
+.searcheFormButton {
+    margin-top: 150px;
+    margin-left: 40px;
+    width: 305px;
+    height: 59px;
+    border-radius: 5px;
+    background: #5970FF;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.searcheFormButtonDisabled {
+    opacity: 0.6;
+    cursor: not-allowed;}
+
+.requiredField {
+    margin-left: 85px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #949494;
+}

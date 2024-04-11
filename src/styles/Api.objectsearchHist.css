@@ -1,0 +1,54 @@
+.slicObjHistContent {
+    padding: 10px 0 20px 0;
+    margin-left: 40px;
+    display: flex;
+    flex-direction:row;
+    width: 1344px;
+    height: 154px;   
+}
+
+.slickObjHistHeader {
+    width: 131px;
+    height: 152px;
+    padding: 1px 0 ;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #029491;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 24.2px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: white;
+}
+
+.slickObjHistContainer {
+    padding-top: 5px;
+    width: 1200px;
+    border: 2px;
+    border-color: #029491;
+    border-style: solid;
+    border-radius: 0 10px 10px 0;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 21.78px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.slickObjHistnextImg {
+    margin-top: 0;
+    margin-left: -40px;
+    width: 39px;
+    height: 39px;
+}
+
+.slickObjHistprevArrow {
+    margin-left: -300px;
+    width: 39px;
+    height: 39px; 
+}
+
+.slick-next:before,
+.slick-prev:before {
+    content: "" !important;
+}

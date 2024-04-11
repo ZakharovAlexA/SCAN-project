@@ -1,0 +1,45 @@
+.requestContainer {
+    display: flex;
+}
+
+.requestDataLeftFrame {
+    display: block;
+    width: 900px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.requestDataLeftFrame h1 {
+    font-family: Ferry;
+    width: 817px;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+}
+
+.requestDataLeftFrame p {
+    font-family: Inter;
+    margin: 0 0 0 10px;
+    font-size: 20px;
+    line-height: 24.2px;
+    letter-spacing: 0.03em;
+}
+
+.requestDataRightFrame {
+    margin-top: 120px;
+    text-align: start;
+}
+
+.requestPage {
+    margin-left: 10px;
+}
+
+.requestFolders{
+    margin: 0 0 30px 160px;
+}
+
+.requestRocket{
+    margin: 110px 0 0 80px;
+}

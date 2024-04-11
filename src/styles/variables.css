@@ -1,0 +1,11 @@
+:root {
+/* Fonts */    
+    --font-family: 'Inter', sans-serif;
+    --font-family-title: 'Ferry', sans-serif;
+/* Basic colors */
+    --base-green: #029491;
+/* Ext color */
+    --ext-yellow: #FFB64F;
+    --ext-green: #7CE3E1;
+    --ext-blue: #5970FF;
+}

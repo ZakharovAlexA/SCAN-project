@@ -1,0 +1,27 @@
+.infoText {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 10px;
+    opacity: 0.4;
+    line-height: 2px;
+    white-space: nowrap;
+    align-items: center;
+    justify-content:right;
+}
+
+.infoCounts {
+    margin: 14px;
+}
+
+.usedCompanyCount,
+.companyLimit {
+    font-size: 14px;
+    font-weight:bold;
+    line-height: 8px;
+   
+}
+
+.companyLimit {
+    color: #8AC540;
+}

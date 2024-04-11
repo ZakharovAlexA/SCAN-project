@@ -1,0 +1,16 @@
+.App-footer {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    color: var(--main-white);
+    background-color: var(--main-green);
+    height: 137px;
+    max-width:  1440px;
+ }
+
+ .Contacts {
+    margin-right: 60px;
+    text-align: end;
+ }

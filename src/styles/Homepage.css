@@ -1,0 +1,251 @@
+.container01 {
+    margin-left: 55px;
+    display: flex;
+    width: 1320px;
+    height: 620px;
+    text-align: left;
+}
+
+.textService {
+    margin-bottom: 10px;
+    width: 743px;
+    text-transform: uppercase;
+    font-family: Ferry, sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.textConplex {
+    margin: 30 auto;
+    width: 534px;
+    height: 48px;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    
+}
+
+.buttonReq {
+    width: 335px;
+    height: 59px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #5970FF;
+    font-family: Inter, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+.mainImage1 {
+    margin-left: -50px;
+    margin-top: 20px;
+    z-index: -1;
+}
+
+.mainImage2 {
+    width: 1307px;
+    margin: 120px auto;
+}
+
+.containerKarousel {
+    width: 1346px;
+    height: 349px;
+    margin-left: 55px;
+    margin-top: 130px;
+    text-align: left;
+}
+
+.textWhyWe {
+    font-family: Ferry, sans-serif;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 54px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin: 0 0 50px 30px;
+}
+
+.tarifsConteiner {
+    display: flex;
+    width: 1346px;
+
+
+}
+
+.frameTarif, .frameTarif2 {
+    padding: 0;
+    margin:30px 0px 120px 30px;
+    width: 415px;
+    height: 540px;
+    box-shadow: 0px 0px 20px 0px #00000033;
+    border-radius: 10px;
+    border: 2px solid #FFB64F
+}
+
+.frameTarif2 {
+   border: none;
+}
+
+.frameHeader, .frameHeader2, .frameHeader3{
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    width: 100%;
+    height: 132px;
+    background-color: #FFB64F;
+}
+
+.frameHeader2 {
+    background-color: #7CE3E1;
+}
+
+.frameHeader3 {
+    background-color:black;
+    color: #FFFFFF;
+}
+
+.frameHeaderTitle {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin: 30px 0 10px 30px;
+}
+
+.frameHeaderText {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin: 0 0 30px 30px;
+
+}
+
+.frameHeaderImg {
+    width: 92.24px;
+    height: 83.15px;
+    margin-top: 10px;
+}
+
+.frameHeaderImg2 {
+    margin: 0 10px 6px 40px;
+}
+
+.frameHeaderImg3 {
+    width: 96px;
+    height: 80px;
+    margin: 20px 0 0 18px;
+}
+
+.mainTarif {
+    display: flex;
+}
+
+.frameBodyPrice {
+    margin: 0 0 10px 30px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.frameBodyCurrentLine {
+    display: flex;
+    padding: 0;
+    margin: 10px 10px;
+    justify-content: flex-end;
+}
+
+.frameBodyCurrent {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 134px;
+    height: 24px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    background-color: #3BA5E0;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.frameBodyPriceText, .frameBodyPriceText2 {
+    margin-top: -40px;
+    margin-bottom: -40px;
+    display: flex;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.frameBodyPriceText2 {
+    margin-top: 0px;
+}
+
+.frameBodyPriceDiscount {
+    text-decoration: line-through;
+    opacity: 0.5;
+    margin-left: 20px;
+}
+
+.frameBodyInTarif, .frameBodyInTarif3 {
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
+
+.frameBodyInTarif3 {
+    padding-top: 80px;
+}
+
+.frameBodyPrice ul {
+    padding-left: 30px;
+    padding-bottom: 30px;
+    list-style-image:url('../img/icon_galka.svg');
+}
+
+.frameButtom, .frameButtomBlue {
+    width: 355px;
+    height: 59px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.frameButtomBlue {
+    color: #FFFFFF;
+    background-color: #5970FF;
+}
